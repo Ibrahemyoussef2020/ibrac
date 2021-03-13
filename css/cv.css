@@ -1,0 +1,641 @@
+body , *{
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+header {
+    box-sizing: border-box;
+    display:flex;
+    width: 100%;
+    height: 120px;
+    background:#ccc;
+    color: #fff;
+    background-image: url("../images.jpg");
+    font-size:15px;
+    font-weight: bold;
+    margin-bottom: 5PX;
+
+
+}
+
+header section {
+
+    flex: 1;
+    height: 100%;
+   
+    
+    
+}
+
+header section h3{
+
+    padding-left:60px;
+}
+
+header section div {
+
+    display:flex;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+
+header section span{
+
+    display: block;
+    align-items: center;
+    justify-content: flex-end;
+    height:20px;
+    padding-left:30px;
+    
+}
+
+
+header section span .far , header section span .fas {
+
+    padding-left:10px;
+    display:block;
+    
+
+
+}
+
+   
+
+header section span p{
+
+    display: block;
+    font-size: 10px;
+    
+    
+   
+    
+}
+
+header .pic {
+
+    width :20%;
+    flex :.75;
+}
+
+header .name {
+
+    width :85%;
+    flex :2.5;
+    
+}
+
+header section  img{
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+/*********************************/
+.nick-education mark {
+    
+    padding-left: 10px;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+    text-align: start;
+    font-weight: 900;
+    background: #999;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************/
+.conact {
+
+    padding-left: 10px;
+    flex: 1.5;
+    border-left: 0.2px dotted #ddd;
+
+    width: 50%;
+    border:.5px solid #ccc;
+} 
+
+.conact *{
+
+    padding-left: 5px
+}
+
+.conact h4  {
+
+    margin: 10px;
+}
+   
+
+
+.conact h6  {
+
+    margin: 10px;
+}
+/*****************************/
+
+
+
+.software-skills {
+
+    width: 50%;
+    border:0.5px solid #ccc;
+}
+
+
+
+.software-skills span {
+  display: inline-block; 
+   height:1px; 
+   padding: 2px;
+   background: gray;
+   margin: 1px;
+   border-radius: 50px;
+
+  
+
+}
+
+.software-skills p {
+
+    display :block;
+
+}
+
+
+
+ .w span:nth-child(1),
+ .w span:nth-child(2),
+ .w span:nth-child(3),
+ .w span:nth-child(4),
+ .w span:nth-child(5),
+ .w span:nth-child(6)
+  {
+    background: red;
+  
+  }  
+
+
+ .e span:nth-child(1),
+ .e span:nth-child(2),
+ .e span:nth-child(3),
+ .e span:nth-child(4),
+ .e span:nth-child(5),
+ .e span:nth-child(6)
+  {
+    background: red;
+  
+  }  
+
+  .ea span:nth-child(1),
+  .ea span:nth-child(2),
+  .ea span:nth-child(3),
+  .ea span:nth-child(4),
+  .ea span:nth-child(5),
+  .ea span:nth-child(6)
+   {
+     background: red;
+   
+   }  
+
+   .po span:nth-child(1),
+   .po span:nth-child(2),
+   .po span:nth-child(3),
+   .po span:nth-child(4),
+   .po span:nth-child(5),
+   .po span:nth-child(6)
+    {
+      background: red;
+    
+    } 
+
+    .wo span:nth-child(1),
+   .wo span:nth-child(2),
+   .wo span:nth-child(3),
+   .wo span:nth-child(4),
+   .wo span:nth-child(5),
+   .wo span:nth-child(6)
+    {
+      background: red;
+    
+    } 
+ 
+
+ /*****************************************************************/
+
+ .personal-skills {
+
+    width: 50%;
+     border:.5px solid #ccc;
+ }
+
+
+ .personal-skills span {
+    display: inline-block; 
+     height:1px; 
+     padding: 2px;
+     background: gray;
+     margin: 1px;
+     border-radius: 50px;
+
+    
+  
+  }
+  
+  .personal-skills p {
+  
+      display :block;
+  }
+  
+  
+  
+   .w span:nth-child(1),
+   .w span:nth-child(2),
+   .w span:nth-child(3),
+   .w span:nth-child(4),
+   .w span:nth-child(5),
+   .w span:nth-child(6)
+    {
+      background: red;
+    
+    }  
+  
+  
+   .e span:nth-child(1),
+   .e span:nth-child(2),
+   .e span:nth-child(3),
+   .e span:nth-child(4),
+   .e span:nth-child(5),
+   .e span:nth-child(6)
+    {
+      background: red;
+    
+    }  
+  
+    .ea span:nth-child(1),
+    .ea span:nth-child(2),
+    .ea span:nth-child(3),
+    .ea span:nth-child(4),
+    .ea span:nth-child(5),
+    .ea span:nth-child(6),
+    .ea span:nth-child(7),
+    .ea span:nth-child(8)
+     {
+       background: red;
+     
+     }  
+  
+     .po span:nth-child(1),
+     .po span:nth-child(2),
+     .po span:nth-child(3),
+     .po span:nth-child(4),
+     .po span:nth-child(5),
+     .po span:nth-child(6)
+      {
+        background: red;
+      
+      } 
+  
+      .wo span:nth-child(1),
+     .wo span:nth-child(2),
+     .wo span:nth-child(3),
+     .wo span:nth-child(4),
+     .wo span:nth-child(5),
+     .wo span:nth-child(6)
+      {
+        background: red;
+      
+      } 
+   
+      .ew span:nth-child(1),
+      .ew span:nth-child(2),
+      .ew span:nth-child(3),
+      .ew span:nth-child(4),
+      .ew span:nth-child(5),
+      .ew span:nth-child(6),
+      .ew span:nth-child(7),
+      .ew span:nth-child(8)
+      {
+        background: red;
+      
+      } 
+      
+
+      .hw span:nth-child(1),
+      .hw span:nth-child(2),
+      .hw span:nth-child(3),
+      .hw span:nth-child(4),
+      .hw span:nth-child(5),
+      .hw span:nth-child(6),
+      .hw span:nth-child(7),
+      .hw span:nth-child(8)
+      {
+        background: red;
+      
+      }
+
+
+      /********************************************/
+
+
+
+        .eng span , .ara span {
+        display: inline-block; 
+         height:1px; 
+         padding: 2px;
+         background: red;
+         margin: 1px;
+         border-radius: 50px;
+      
+      }
+      
+      .ara , .eng  {
+      
+          display :block;
+      }
+
+      
+      .ara span {
+        display: inline-block; 
+         height:1px; 
+         padding: 2px;
+         background: red;
+         margin: 1px;
+         border-radius: 50px;
+      
+      }
+
+      .eng span:nth-child(7),
+      .eng span:nth-child(8),
+      .eng span:nth-child(9),
+      .eng span:nth-child(10)
+      {
+         background: gray;
+
+      }
+
+     /******************************************************************************/
+
+     .career {
+        width: 50%;
+        border:.5px solid #ccc;
+        font-weight: 300 !important;
+        line-height: 1.2rem !important;
+     }
+
+     .career h5 {
+
+        display: block;
+        font-size: .90em;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+     }
+
+     /***************************************************************/
+      .languge {
+
+        width: 50%;
+        border:.5px solid #ccc;
+      }
+
+
+    
+
+
+
+
+      .courses {
+
+        width: 50%;
+        border:.5px solid #ccc;
+      
+      }
+
+
+     /************************************************************/
+
+     
+     p {
+
+        font-size: 12px !important;
+        font-weight: 900 !important;
+     }
+
+     span {
+
+        font-size: 12px !important;
+        font-weight: 900 !important;
+     }
+
+   /**********************************************************/
+   
+   
+.footer  div {
+
+   
+    background: red;
+}
+
+.footer section  {
+   
+    display: block;
+    width: 30%;
+}
+      
+
+
+
+  /**********************************************************/
+  
+  
+.one {
+
+    display: flex;
+}
+
+
+
+/*************************************************/
+.one {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 5PX;
+}
+
+.nick-education {
+
+    width: 200px;
+    border:.5px solid #ccc;
+    height: 200px;
+    line-height: 1.5rem;
+    margin-right: 5PX;
+    text-align: center;
+   
+}
+     
+
+
+.software-skills {
+
+    width: 250px;
+    border:.5px solid #ccc;
+    height: 200px;
+    text-align: start;
+    margin-right: 5PX;
+    padding-left: 10PX;
+}
+
+
+.career {
+    
+    width: 250px;
+    border:.5px solid #ccc;
+    height: 200px;
+    text-align: start;
+    line-height: 1.5rem;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.two {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 5PX;
+   
+}
+
+
+.two-t  {
+
+    width: 50%;
+    border:.5px solid #ccc;
+    height: 400px;
+    text-align: start;
+    margin-right: 5PX;
+    
+   
+}
+
+.personal-skills {
+
+    margin-bottom: 5PX;
+    padding-left: 10px
+}
+
+.courses  {
+
+    width: 500px;
+    border:.5px solid #ccc;
+    height: 400px;
+    text-align: start;
+    width: 50%;
+    padding-left: 10px
+    
+    
+   
+}
+
+.courses ul {
+
+    list-style: none; 
+    text-align: start;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    line-height: 1.5rem;
+    font-size: 13px;
+
+
+}
+
+.courses ul .c {
+
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+.personal-skills {
+
+    width: 100%;
+  
+}
+
+.languge {
+
+    width: 100%;
+    line-height: 1.5rem;
+    padding-left: 10px !important;
+}
+
+
+
+/******************************************/
+
+.foot {
+
+    border:.5px solid #ccc;
+}
+
+
+.foot > div {
+
+   
+   display: flex;
+   flex-direction: row;
+}
+
+.foot section  {
+   
+    display: block;
+    width: 30%;
+}
+.foot section * {
+   
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 16px;
+  
+}
+
+
+.foot h2 {
+
+    text-align: center;
+}
+
+
+
